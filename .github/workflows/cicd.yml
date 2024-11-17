@@ -16,7 +16,7 @@ jobs:
       uses: appleboy/telegram-action@master
       with:
         to: ${{ secrets.TG_ID }}
-        token: ${{ secrets.TG_TOKEN8184330306:AAHDfNTZCSRdFM75eSdBTeySaOUiTmdOJvc
+        token: ${{ secrets.TG_TOKEN 8184330306:AAHDfNTZCSRdFM75eSdBTeySaOUiTmdOJvc
 }}
         message: |
           ${{ github.actor }} создал новый коммит: ${{ github.event.commits[0].message }}
